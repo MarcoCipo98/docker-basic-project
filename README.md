@@ -150,11 +150,11 @@ docker ps
 ```
 
 Example output:
-
+```
 Up 2 minutes (healthy)
 ```
 The health check verifies that the HTTP endpoint is reachable, not just that the Node.js process is running.
-```
+
 ---
 
 ## Why Health Checks Matter
